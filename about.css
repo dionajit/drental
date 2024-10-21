@@ -1,0 +1,167 @@
+
+         * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Arial', sans-serif;
+            color: #333;
+            background-color: #f9f9f9;
+        }
+
+        /* Navigation Bar */
+        nav {
+            background-color: #fff;
+            padding: 15px 30px;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+        .founder-section {
+         margin-top: 40px;
+         text-align: center;
+        }
+
+        .founder-image {
+         width: 150px; /* Adjust width as needed */
+         height: auto; /* Maintain aspect ratio */
+         border-radius: 50%; /* Make the image circular */
+         border: 3px solid #007bff; /* Add a border for styling */
+        }
+
+         .founder-section h3 {
+            font-size: 1.5rem;
+            color: #007bff;
+            margin: 10px 0 5px 0;
+    }   
+
+    .founder-section p {
+    font-size: 1.1rem;
+    color: #555;
+    }
+        nav ul {
+            list-style-type: none;
+            display: flex;
+            align-items: center;
+        }
+
+        nav ul li {
+            margin: 0 20px;
+            position: relative;
+        }
+
+        nav ul li a {
+            text-decoration: none;
+            color: #333;
+            font-weight: bold;
+            padding: 10px;
+        }
+        nav ul li a.active {
+            background-color: #007bff;
+            color: #fff;
+            border-radius: 5px;
+        }
+        nav ul li a:hover {
+            background-color: #007bff;
+            color: #fff;
+            border-radius: 5px;
+        }
+
+      
+        .logo img {
+            width: 100px;
+        }
+        
+ 
+
+        /* Hero Section */
+        .hero {
+            height: 500px;
+            background-image: url('https://imgd.aeplcdn.com/1280x720/n/cw/ec/127499/bullet-right-front-three-quarter-12.jpeg?isig=0&q=100'); /* Make sure to add your image path */
+            background-size: cover;
+            background-position: center;
+            position: relative;
+        }
+
+        .hero-overlay {
+            position: absolute;
+            top: 0;
+            left: 0;
+            right: 0;
+            bottom: 0;
+            background-color: rgba(0, 0, 0, 0.5);
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            color: #fff;
+            text-align: center;
+        }
+
+        .hero-overlay h1 {
+            font-size: 3rem;
+            font-weight: bold;
+        }
+
+        .hero-overlay p {
+            font-size: 1.2rem;
+            margin-top: 15px;
+            max-width: 600px;
+        }
+
+        /* About Section */
+        .about-section {
+            padding: 50px 20px;
+            text-align: center;
+            background-color: #fff;
+        }
+
+        .about-section h2 {
+            font-size: 2.5rem;
+            color: #007bff;
+            margin-bottom: 30px;
+        }
+
+        .about-section p {
+            font-size: 1.1rem;
+            line-height: 1.8;
+            max-width: 800px;
+            margin: 0 auto 20px auto;
+            color: #555;
+        }
+
+        /* Feature Section */
+        .features {
+            display: flex;
+            justify-content: space-around;
+            background-color: #f1f1f1;
+            padding: 50px 0;
+        }
+
+        .feature-box {
+            max-width: 300px;
+            text-align: center;
+        }
+
+        .feature-box h3 {
+            color: #007bff;
+            margin-bottom: 15px;
+        }
+
+        .feature-box p {
+            color: #777;
+        }
+
+        /* Footer */
+        footer {
+            background-color: #333;
+            color: #fff;
+            padding: 20px 0;
+            text-align: center;
+        }
+
+        footer p {
+            margin: 0;
+        }

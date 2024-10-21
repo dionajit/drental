@@ -1,0 +1,132 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Arial', sans-serif;
+    color: #333;
+    background-color: #f9f9f9;
+}
+
+/* Navigation Bar */
+nav {
+    background-color: #fff;
+    padding: 15px 30px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+nav ul {
+    list-style-type: none;
+    display: flex;
+}
+
+nav ul li {
+    margin: 0 20px;
+    position: relative;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #333;
+    font-weight: bold;
+    padding: 10px;
+}
+
+nav ul li a:hover {
+    background-color: #007bff;
+    color: #fff;
+    border-radius: 5px;
+}
+
+nav .login-btn {
+    background-color: #007bff;
+    color: #fff;
+    padding: 8px 20px;
+    border-radius: 5px;
+    text-decoration: none;
+}
+
+nav .login-btn:hover {
+    background-color: #0056b3;
+}
+
+/* Logo styling */
+.logo img {
+    width: 100px;
+}
+
+.bike-details {
+    padding: 50px 20px;
+    background-color: #fff;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 20px;
+}
+
+.bike-details h2 {
+    font-size: 2.5rem;
+    color: #007bff;
+    margin-bottom: 30px;
+    text-align: center;
+}
+
+.bike-card img {
+    width: 700px;
+    height: auto;
+    border-radius: 8px;
+}
+
+.bike-info {
+    text-align: left;
+}
+
+.bike-info h3 {
+    font-size: 1.8rem;
+    color: #333;
+}
+
+.bike-info p {
+    font-size: 1.1rem;
+    color: #555;
+    margin-bottom: 10px;
+}
+
+.rent-form {
+    margin-top: 20px;
+}
+
+.rent-form input[type="date"] {
+    display:flex;
+    flex-direction:column;
+    width: 300px;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.rent-form button {
+    padding: 10px 20px;
+    background-color: #28a745;
+    border: none;
+    color: #fff;
+    font-size: 1.1rem;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.rent-form button:hover {
+    background-color: #218838;
+}
+
+.error {
+    color: red;
+    font-size: 1rem;
+    margin-bottom: 15px;
+}
